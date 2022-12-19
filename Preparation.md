@@ -29,6 +29,7 @@ cd catkin_ws
 echo "source /home/yan/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+‼️please replace **'/home/yan'** with your own path.
 
 ## Install required libraries
 ```
