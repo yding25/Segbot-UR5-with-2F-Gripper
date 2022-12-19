@@ -2,10 +2,6 @@
 
 <img src="https://github.com/yding25/mobile_manipulator/blob/master/images/overview.png" width="40%" height="40%">
 
-## Basics of UR5e
-If this is your first time, please check the [Wiki page](https://github.com/bu-air-lab/UR5e_arm/wiki) of this repository to learn how to work with the arm
-
-
 ## Install ROS (melodic) on Ubuntu 18.04
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
