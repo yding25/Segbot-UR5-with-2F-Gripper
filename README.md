@@ -1,5 +1,5 @@
 # Segbot_ur5 Preparation
-<img src="https://raw.githubusercontent.com/yding25/pic_share/master/segbot_ur5.png" height="250" width="300" />
+<img src="https://raw.githubusercontent.com/yding25/pic_share/master/segbot_ur5.png"/>
 
 ## Install ROS (melodic) on Ubuntu 18.04
 ```
