@@ -40,14 +40,14 @@ sudo apt update -qq
 ```
 cd catkin_ws/src
 sudo apt-get install zip unzip
-wget https://www.dropbox.com/s/zwlx2p6wbqj5j2z/src.zip?dl=0
-unzip src.zip
-sudo rm -rf src.zip
+wget https://www.dropbox.com/s/yy4d88vktq1zk2s/segbot_ur5_third_party_packages.zip?dl=0
+unzip segbot_ur5_third_party_packages.zip
+sudo rm -rf segbot_ur5_third_party_packages.zip
 ```
 
 ## Download source code
 ```
-wget https://www.dropbox.com/s/zwlx2p6wbqj5j2z/src.zip?dl=0
+wget https://www.dropbox.com/s/zwlx2p6wbqj5j2z/tamp_perception.zip?dl=0
 unzip tamp_perception.zip
 sudo rm -rf tamp_perception.zip
 cd tamp_perception/src
