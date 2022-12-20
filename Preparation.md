@@ -36,10 +36,17 @@ sudo apt-get install ros-melodic-moveit && sudo apt-get install ros-melodic-ros-
 sudo apt update -qq
 ```
 
-## Download source code
+## Download third-party packages
 ```
 cd catkin_ws/src
 sudo apt-get install zip unzip
+wget https://www.dropbox.com/s/zwlx2p6wbqj5j2z/src.zip?dl=0
+unzip src.zip
+sudo rm -rf src.zip
+```
+
+## Download source code
+```
 wget https://www.dropbox.com/s/zwlx2p6wbqj5j2z/src.zip?dl=0
 unzip src.zip
 sudo rm -rf src.zip
