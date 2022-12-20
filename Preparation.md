@@ -48,8 +48,10 @@ sudo rm -rf src.zip
 ## Download source code
 ```
 wget https://www.dropbox.com/s/zwlx2p6wbqj5j2z/src.zip?dl=0
-unzip src.zip
-sudo rm -rf src.zip
+unzip tamp_perception.zip
+sudo rm -rf tamp_perception.zip
+cd tamp_perception/src
+chmod 777 -R *
 ```
 
 ## Update dependencies
