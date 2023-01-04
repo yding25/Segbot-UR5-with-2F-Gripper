@@ -36,20 +36,17 @@ sudo apt-get install ros-melodic-moveit && sudo apt-get install ros-melodic-ros-
 sudo apt update -qq
 ```
 
-## Download third-party packages
+## Download source code
 ```
 cd catkin_ws/src
 sudo apt-get install zip unzip
-wget https://www.dropbox.com/s/yy4d88vktq1zk2s/segbot_ur5_third_party_packages.zip?dl=0
-unzip segbot_ur5_third_party_packages.zip
-sudo rm -rf segbot_ur5_third_party_packages.zip
+wget https://www.dropbox.com/s/yy4d88vktq1zk2s/src.zip?dl=0
+unzip src.zip
+sudo rm -rf src.zip
 ```
 
-## Download source code
+## Change permission
 ```
-wget https://www.dropbox.com/s/ybaxd77qdca3cdv/tamp_perception.zip?dl=0
-unzip tamp_perception.zip
-sudo rm -rf tamp_perception.zip
 cd tamp_perception/src
 chmod 777 -R *
 ```
